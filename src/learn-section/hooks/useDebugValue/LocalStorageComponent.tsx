@@ -6,7 +6,8 @@ function LocalStorageComponent() {
 
     return (
         <div className="grid-item">
-            <h1>Hello, {name}!</h1>
+            <p>useDebugValue</p>
+            <h3>Hello, {name}!</h3>
             <input
                 type="text"
                 value={name}

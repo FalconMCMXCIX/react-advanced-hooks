@@ -18,7 +18,7 @@ function ParentComponent() {
     return (
         <div className={"grid-item"}>
             <p>useCallback</p>
-            <h2>Count: {count}</h2>
+            <h3>Count: {count}</h3>
             {/* Pass the memoized callback to the child component */}
             <ChildComponent onClick={handleClick} />
         </div>
